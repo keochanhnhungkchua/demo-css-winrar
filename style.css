@@ -1,0 +1,121 @@
+
+body{
+	padding: 0 20%;
+	font-family:Helvetica,Arial,sans-serif;
+}
+
+.header{
+	border:7px solid  #133c8a;
+	display: flex;
+	justify-content: space-between;
+	color: #AAA;
+	padding: 15px;
+	margin-bottom: 30px;
+}
+.header select{
+	color: #AAA;
+	width: 200px;	
+}
+.header form{
+	margin-top: 20px;
+    position: relative;
+    right: 25px;
+}
+
+/*style for main*/
+.main{
+	display: flex;
+}
+
+
+.body-text{
+	flex:0 1 70%;
+}
+.body-text-1{
+	display: flex;
+	justify-content: space-between;
+}
+/*style for body-text*/
+
+.float-left{
+	float:left;
+	margin: 5px;
+}
+.stars-image{
+	width: 155px;
+    height: 31px;
+}
+.stars-text{
+	font-size: 12px;
+	text-align: center;
+}
+h1{
+	font-size: 28px;
+	color: #133c8a;
+    font-weight: bold;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2{
+	padding: 0px;
+    margin: 0px;
+    font-size: 23px;
+}
+p{
+	font-size: 16px;
+}
+.body-image{
+	flex:0 1 30%;
+	margin-left: 25px;
+}
+.body-image a{
+	text-decoration: none;
+}
+.buy-button{
+	background-image: url(https://www.win-rar.com/fileadmin/images/buttons/button_buy_blank.png);
+    background-repeat: no-repeat;
+    background-size: 103%;
+	padding: 30px 0px 30px 50px;
+	color: white;	
+	text-align: center;
+	font-weight: bold;
+
+}
+
+.buy-button-text{
+	text-align: center;
+    color:#133C8A;
+    font-size: 90%;
+    text-decoration: underline;
+    margin: 25px 0px;
+}
+.download{
+	background-image: url(https://www.win-rar.com/fileadmin/images/buttons/button_download_blank.png);	
+   	background-repeat: no-repeat;
+    background-size: 103%;
+	padding: 30px 0px 30px 50px;
+	color: white;	
+	text-align: center;
+	font-weight: bold;
+}
+.body-image-3{
+	text-align: center;
+}
+/*style for footer*/
+.footer a{
+	color: white;
+}
+.footer{
+	margin-top: 50px;
+ background-color: #133c8a;
+display: flex;
+ justify-content: space-around;
+}
+.footer-2{
+	margin: 8px;
+	font-size: 11px;
+	color: #b0b0b0;
+	text-align: right;
+}
